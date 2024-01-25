@@ -1,5 +1,6 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom';
 
 const AdminPage = () => {
 
@@ -53,9 +54,11 @@ const AdminPage = () => {
                     Admin Page
                 </h1> 
                 <div>
-                    <button className='py-2 px-2 bg-blue-800 text-white rounded-md'>
+                   <Link to={"/addpage"}>
+                   <button className='py-2 px-2 bg-blue-800 text-white rounded-md'>
                         Add Page
                     </button>
+                   </Link>
                 </div>
             </div>
             <div className='flex justify-center items-center gap-4 flex-wrap'>
