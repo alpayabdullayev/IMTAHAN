@@ -21,7 +21,7 @@ const BasketPage = () => {
             Basket Page
           </h1>
         </div>
-        <div>
+        <div className="text-blue-800 text-3xl font-bold ">
             {
                 basket.length === 0 ? <p>Basket Bosdur</p> : ""
             }
@@ -106,6 +106,12 @@ const BasketPage = () => {
                   </div>
                 </div>
               ))}
+          </div>
+          <div className="py-20 text-blue-800 font-semibold text-3xl">
+            <span>SubTotal :</span>
+            {
+                basket.reduce((acc,item)=>acc + item.price * item.count,0)
+            }$
           </div>
         </div>
       </div>

@@ -24,7 +24,7 @@ const WishlistPage = () => {
             Wishlist Page
           </h1>
         </div>
-        <div>
+        <div className='text-blue-800 text-3xl font-bold '>
             {
                 wishlist.length === 0 ? <p>Wishlist Bosdur</p> : ""
             }
