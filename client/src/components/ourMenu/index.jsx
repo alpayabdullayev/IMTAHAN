@@ -116,6 +116,12 @@ const OurMenu = () => {
               ))
             )}
           </div>
+          <div className="py-20 flex justify-center flex-col gap-4  items-center">
+            <h1 className="text-center">Even the all-powerful Pointing has no control about the blind texts it is an almost</h1>
+            <div className=" border-yellow-500 border-2 duration-300  hover:bg-yellow-500 hover:text-black py-3 px-5 text-yellow-500">
+                <button>MAKE A RESERVATION</button>
+            </div>
+          </div>
         </div>
       </div>
     </section>
