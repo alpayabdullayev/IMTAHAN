@@ -21,7 +21,7 @@ const Navbar = () => {
             <div>
               <h1 className="border border-white px-1 py-1">Tasty</h1>
             </div>
-            <ul className="hidden md:flex  items-center gap-5">
+            <ul className="hidden font-bold md:flex  items-center gap-5">
               <li>
                 <NavLink to={"/"}>Home</NavLink>
               </li>
@@ -32,7 +32,7 @@ const Navbar = () => {
                 <NavLink to={"/admin"}>Admin</NavLink>
               </li>
             </ul>
-            <ul className="flex justify-between items-center gap-4">
+            <ul className="flex  justify-between items-center gap-4">
               <li className=" relative">
                 <NavLink to={"/basket"}>
                   <SlBasket />
