@@ -30,7 +30,7 @@ const OurSatisfed = () => {
   return (
     <section className="py-20">
       <div className="wrapper">
-        <SectionTitle />
+        <SectionTitle  children={"GUESTS SAYS"} text={"Our Satisfied Guests says"}/>
         <div className="py-10">
           <Swiper
             slidesPerView={3}

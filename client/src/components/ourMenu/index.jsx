@@ -27,7 +27,7 @@ const OurMenu = () => {
   return (
     <section>
       <div className="wrapper">
-        <SectionTitle children={" OUR MENU"} />
+        <SectionTitle children={" OUR MENU"} text={"Discover Our Exclusive Menu"} />
         <div className="py-10">
           <div className="flex  flex-wrap justify-center items-center gap-4">
             <div>
