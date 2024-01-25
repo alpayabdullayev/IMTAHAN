@@ -5,10 +5,10 @@ const About = () => {
     <>
       <section className="py-20">
         <div className="wrapper">
-          <div className="grid grid-cols-1   lg:grid-cols-2 gap-10 items-center">
-            <div>
+          <div className="grid grid-cols-1    lg:grid-cols-2 gap-10 items-center">
+            <div className=" overflow-hidden relative">
               <img
-                src="https://preview.colorlib.com/theme/tasty/images/about-2.jpg"
+                src="https://preview.colorlib.com/theme/tasty/images/about-2.jpg" className=" hover:scale-105 duration-500"
                 alt=""
               />
             </div>
